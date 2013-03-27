@@ -1,5 +1,5 @@
 //
-//  DSEViewController.h
+//  DSETableViewController.h
 //  KitchenSink
 //
 //  Created by Bob Martens on 3/27/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DSEViewController : UIViewController
+@interface DSETableViewController : UITableViewController
 
 @end

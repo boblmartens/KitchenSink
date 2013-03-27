@@ -17,7 +17,7 @@
 		C4F055AE170384BF00D1BA03 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F055AD170384BF00D1BA03 /* Default@2x.png */; };
 		C4F055B0170384BF00D1BA03 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F055AF170384BF00D1BA03 /* Default-568h@2x.png */; };
 		C4F055B3170384BF00D1BA03 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F055B1170384BF00D1BA03 /* MainStoryboard.storyboard */; };
-		C4F055B6170384BF00D1BA03 /* DSEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F055B5170384BF00D1BA03 /* DSEViewController.m */; };
+		C4F055C11703854C00D1BA03 /* DSETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F055C01703854C00D1BA03 /* DSETableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		C4F055AD170384BF00D1BA03 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C4F055AF170384BF00D1BA03 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C4F055B2170384BF00D1BA03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C4F055B4170384BF00D1BA03 /* DSEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSEViewController.h; sourceTree = "<group>"; };
-		C4F055B5170384BF00D1BA03 /* DSEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSEViewController.m; sourceTree = "<group>"; };
+		C4F055BF1703854C00D1BA03 /* DSETableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSETableViewController.h; sourceTree = "<group>"; };
+		C4F055C01703854C00D1BA03 /* DSETableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSETableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +86,9 @@
 				C4F055A8170384BF00D1BA03 /* DSEAppDelegate.h */,
 				C4F055A9170384BF00D1BA03 /* DSEAppDelegate.m */,
 				C4F055B1170384BF00D1BA03 /* MainStoryboard.storyboard */,
-				C4F055B4170384BF00D1BA03 /* DSEViewController.h */,
-				C4F055B5170384BF00D1BA03 /* DSEViewController.m */,
 				C4F055A0170384BF00D1BA03 /* Supporting Files */,
+				C4F055BF1703854C00D1BA03 /* DSETableViewController.h */,
+				C4F055C01703854C00D1BA03 /* DSETableViewController.m */,
 			);
 			path = KitchenSink;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 			files = (
 				C4F055A6170384BF00D1BA03 /* main.m in Sources */,
 				C4F055AA170384BF00D1BA03 /* DSEAppDelegate.m in Sources */,
-				C4F055B6170384BF00D1BA03 /* DSEViewController.m in Sources */,
+				C4F055C11703854C00D1BA03 /* DSETableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
