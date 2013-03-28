@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C42E88FE1704DD72007E044E /* DSESignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42E88FB1704DD72007E044E /* DSESignInViewController.m */; };
+		C42E88FF1704DD72007E044E /* DSEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42E88FD1704DD72007E044E /* DSEViewController.m */; };
 		C4BEBE061703FA8B00689F8E /* DSEDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BEBE051703FA8B00689F8E /* DSEDetailViewController.m */; };
 		C4F0559A170384BF00D1BA03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F05599170384BF00D1BA03 /* UIKit.framework */; };
 		C4F0559C170384BF00D1BA03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F0559B170384BF00D1BA03 /* Foundation.framework */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C42E88FA1704DD72007E044E /* DSESignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSESignInViewController.h; sourceTree = "<group>"; };
+		C42E88FB1704DD72007E044E /* DSESignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSESignInViewController.m; sourceTree = "<group>"; };
+		C42E88FC1704DD72007E044E /* DSEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSEViewController.h; sourceTree = "<group>"; };
+		C42E88FD1704DD72007E044E /* DSEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSEViewController.m; sourceTree = "<group>"; };
 		C4BEBE041703FA8B00689F8E /* DSEDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSEDetailViewController.h; sourceTree = "<group>"; };
 		C4BEBE051703FA8B00689F8E /* DSEDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSEDetailViewController.m; sourceTree = "<group>"; };
 		C4F05596170384BF00D1BA03 /* KitchenSink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenSink.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +92,10 @@
 		C4F0559F170384BF00D1BA03 /* KitchenSink */ = {
 			isa = PBXGroup;
 			children = (
+				C42E88FA1704DD72007E044E /* DSESignInViewController.h */,
+				C42E88FB1704DD72007E044E /* DSESignInViewController.m */,
+				C42E88FC1704DD72007E044E /* DSEViewController.h */,
+				C42E88FD1704DD72007E044E /* DSEViewController.m */,
 				C4F055A8170384BF00D1BA03 /* DSEAppDelegate.h */,
 				C4F055A9170384BF00D1BA03 /* DSEAppDelegate.m */,
 				C4F055B1170384BF00D1BA03 /* MainStoryboard.storyboard */,
@@ -183,6 +193,8 @@
 				C4F055AA170384BF00D1BA03 /* DSEAppDelegate.m in Sources */,
 				C4F055C11703854C00D1BA03 /* DSETableViewController.m in Sources */,
 				C4BEBE061703FA8B00689F8E /* DSEDetailViewController.m in Sources */,
+				C42E88FE1704DD72007E044E /* DSESignInViewController.m in Sources */,
+				C42E88FF1704DD72007E044E /* DSEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
