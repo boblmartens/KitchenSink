@@ -7,6 +7,7 @@
 //
 
 #import "DSETableViewController.h"
+#import "DSEDetailViewController.h"
 
 @interface DSETableViewController ()
 
@@ -38,6 +39,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    DSEDetailViewController *detailVC = segue.destinationViewController;
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    NSInteger greetingNumber = indexPath.row + 1;
+    detailVC.titleText = [NSString stringWithFormat:@"%d", greetingNumber];
 }
 
 #pragma mark - Table view data source

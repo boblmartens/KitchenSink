@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4BEBE061703FA8B00689F8E /* DSEDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BEBE051703FA8B00689F8E /* DSEDetailViewController.m */; };
 		C4F0559A170384BF00D1BA03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F05599170384BF00D1BA03 /* UIKit.framework */; };
 		C4F0559C170384BF00D1BA03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F0559B170384BF00D1BA03 /* Foundation.framework */; };
 		C4F0559E170384BF00D1BA03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F0559D170384BF00D1BA03 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4BEBE041703FA8B00689F8E /* DSEDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSEDetailViewController.h; sourceTree = "<group>"; };
+		C4BEBE051703FA8B00689F8E /* DSEDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSEDetailViewController.m; sourceTree = "<group>"; };
 		C4F05596170384BF00D1BA03 /* KitchenSink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenSink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F05599170384BF00D1BA03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C4F0559B170384BF00D1BA03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,8 @@
 				C4F055A0170384BF00D1BA03 /* Supporting Files */,
 				C4F055BF1703854C00D1BA03 /* DSETableViewController.h */,
 				C4F055C01703854C00D1BA03 /* DSETableViewController.m */,
+				C4BEBE041703FA8B00689F8E /* DSEDetailViewController.h */,
+				C4BEBE051703FA8B00689F8E /* DSEDetailViewController.m */,
 			);
 			path = KitchenSink;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				C4F055A6170384BF00D1BA03 /* main.m in Sources */,
 				C4F055AA170384BF00D1BA03 /* DSEAppDelegate.m in Sources */,
 				C4F055C11703854C00D1BA03 /* DSETableViewController.m in Sources */,
+				C4BEBE061703FA8B00689F8E /* DSEDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				C4F055BB170384BF00D1BA03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
