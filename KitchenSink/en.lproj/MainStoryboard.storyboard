@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="aJb-lz-e8Z">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="aPi-jy-hmH">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
+        <!--View Controller - Sign In-->
+        <scene sceneID="mcN-Eq-0ml">
+            <objects>
+                <viewController id="61f-Mm-mTa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fwc-hm-duH">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sign In" id="COg-PE-oUe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gId-Ux-gkq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746" y="-443"/>
+        </scene>
         <!--Table View Controller - Greetings-->
         <scene sceneID="aPv-6B-3Ll">
             <objects>
                 <tableViewController id="qy1-AY-N4l" customClass="DSETableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ArZ-tq-ria">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -47,14 +62,14 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uKT-9E-pDK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="536" y="100"/>
+            <point key="canvasLocation" x="1214" y="572"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="8gN-f9-6gG">
             <objects>
                 <viewController id="sXB-93-QwR" customClass="DSEDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5jH-bn-1io">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -62,12 +77,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PHh-fi-TLY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1014" y="100"/>
+            <point key="canvasLocation" x="1692" y="572"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Greetings-->
         <scene sceneID="tqn-vw-Zc5">
             <objects>
                 <navigationController id="aJb-lz-e8Z" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Greetings" id="ter-gf-1ZJ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mu3-My-FPg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -80,7 +96,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6YV-8K-cdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10" y="100"/>
+            <point key="canvasLocation" x="678" y="270"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yKa-Ky-uJT">
+            <objects>
+                <tabBarController id="aPi-jy-hmH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="dsu-HZ-abl">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="61f-Mm-mTa" kind="relationship" relationship="viewControllers" id="EoK-4R-ODa"/>
+                        <segue destination="aJb-lz-e8Z" kind="relationship" relationship="viewControllers" id="fcU-qt-wz2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Pc-ej-wln" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10" y="-254"/>
         </scene>
     </scenes>
     <classes>
