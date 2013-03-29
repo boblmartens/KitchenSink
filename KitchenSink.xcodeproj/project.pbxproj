@@ -13,7 +13,6 @@
 		C4F0559A170384BF00D1BA03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F05599170384BF00D1BA03 /* UIKit.framework */; };
 		C4F0559C170384BF00D1BA03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F0559B170384BF00D1BA03 /* Foundation.framework */; };
 		C4F0559E170384BF00D1BA03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F0559D170384BF00D1BA03 /* CoreGraphics.framework */; };
-		C4F055A4170384BF00D1BA03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4F055A2170384BF00D1BA03 /* InfoPlist.strings */; };
 		C4F055A6170384BF00D1BA03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F055A5170384BF00D1BA03 /* main.m */; };
 		C4F055AA170384BF00D1BA03 /* DSEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F055A9170384BF00D1BA03 /* DSEAppDelegate.m */; };
 		C4F055AC170384BF00D1BA03 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F055AB170384BF00D1BA03 /* Default.png */; };
@@ -28,6 +27,8 @@
 		C42E88FB1704DD72007E044E /* DSESignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSESignInViewController.m; sourceTree = "<group>"; };
 		C42E88FC1704DD72007E044E /* DSEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSEViewController.h; sourceTree = "<group>"; };
 		C42E88FD1704DD72007E044E /* DSEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSEViewController.m; sourceTree = "<group>"; };
+		C4767FB717061A480014147D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C4767FBA17061B030014147D /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/MainStoryboard.strings"; sourceTree = "<group>"; };
 		C4BEBE041703FA8B00689F8E /* DSEDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSEDetailViewController.h; sourceTree = "<group>"; };
 		C4BEBE051703FA8B00689F8E /* DSEDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSEDetailViewController.m; sourceTree = "<group>"; };
 		C4F05596170384BF00D1BA03 /* KitchenSink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenSink.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,7 +36,6 @@
 		C4F0559B170384BF00D1BA03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C4F0559D170384BF00D1BA03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C4F055A1170384BF00D1BA03 /* KitchenSink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KitchenSink-Info.plist"; sourceTree = "<group>"; };
-		C4F055A3170384BF00D1BA03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4F055A5170384BF00D1BA03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4F055A7170384BF00D1BA03 /* KitchenSink-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KitchenSink-Prefix.pch"; sourceTree = "<group>"; };
 		C4F055A8170384BF00D1BA03 /* DSEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSEAppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +43,6 @@
 		C4F055AB170384BF00D1BA03 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C4F055AD170384BF00D1BA03 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C4F055AF170384BF00D1BA03 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C4F055B2170384BF00D1BA03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C4F055BF1703854C00D1BA03 /* DSETableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSETableViewController.h; sourceTree = "<group>"; };
 		C4F055C01703854C00D1BA03 /* DSETableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSETableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				C4F055A1170384BF00D1BA03 /* KitchenSink-Info.plist */,
-				C4F055A2170384BF00D1BA03 /* InfoPlist.strings */,
 				C4F055A5170384BF00D1BA03 /* main.m */,
 				C4F055A7170384BF00D1BA03 /* KitchenSink-Prefix.pch */,
 				C4F055AB170384BF00D1BA03 /* Default.png */,
@@ -158,6 +156,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
+				"en-GB",
 			);
 			mainGroup = C4F0558D170384BF00D1BA03;
 			productRefGroup = C4F05597170384BF00D1BA03 /* Products */;
@@ -174,7 +174,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4F055A4170384BF00D1BA03 /* InfoPlist.strings in Resources */,
 				C4F055AC170384BF00D1BA03 /* Default.png in Resources */,
 				C4F055AE170384BF00D1BA03 /* Default@2x.png in Resources */,
 				C4F055B0170384BF00D1BA03 /* Default-568h@2x.png in Resources */,
@@ -201,18 +200,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C4F055A2170384BF00D1BA03 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4F055A3170384BF00D1BA03 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		C4F055B1170384BF00D1BA03 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C4F055B2170384BF00D1BA03 /* en */,
+				C4767FB717061A480014147D /* Base */,
+				C4767FBA17061B030014147D /* en-GB */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";

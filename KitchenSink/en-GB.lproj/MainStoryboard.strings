@@ -1,0 +1,30 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "2Xq-v9-yZe"; */
+"2Xq-v9-yZe.text" = "Title";
+
+/* Class = "IBUINavigationItem"; title = "Greetings"; ObjectID = "4rl-u1-RKE"; */
+"4rl-u1-RKE.title" = "Greetings";
+
+/* Class = "IBUITabBarItem"; title = "Sign In"; ObjectID = "COg-PE-oUe"; */
+"COg-PE-oUe.title" = "Register";
+
+/* Class = "IBUIButton"; normalTitle = "Sign In"; ObjectID = "FxT-tc-9O2"; */
+"FxT-tc-9O2.normalTitle" = "Sign In";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "Kz6-7u-wEG"; */
+"Kz6-7u-wEG.text" = "Subtitle";
+
+/* Class = "IBUIButton"; normalTitle = "Save"; ObjectID = "Xbo-Tm-OYQ"; */
+"Xbo-Tm-OYQ.normalTitle" = "Save";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "bqL-wB-7cK"; */
+"bqL-wB-7cK.normalTitle" = "Cancel";
+
+/* Class = "IBUITextField"; placeholder = "Sign In Please"; ObjectID = "ocs-GM-N4c"; */
+"ocs-GM-N4c.placeholder" = "Register Please";
+
+/* Class = "IBUITabBarItem"; title = "Greetings"; ObjectID = "ter-gf-1ZJ"; */
+"ter-gf-1ZJ.title" = "Niceties";
+
+/* Class = "IBUILabel"; text = "Welcome"; ObjectID = "y5y-hE-Qm8"; */
+"y5y-hE-Qm8.text" = "Welcome";
